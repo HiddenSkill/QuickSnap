@@ -34,9 +34,12 @@ namespace CardGames.GameLogic
 		/// <summary>
 		/// Create a new game of Snap!
 		/// </summary>
-		public Snap ()
+		public Snap
+()
 		{
-			_deck = new Deck ();
+			_deck = new Deck();
+			_gameTimer = SwinGame.CreateTimer
+			 ();
 		}
 
 		/// <summary>
